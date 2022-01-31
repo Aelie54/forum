@@ -2,11 +2,11 @@
 
 namespace App\Controller;
 
-final class AppController extends AbstractController
+final class AppController
 {
 
     public function index(): void
     {
-        print_r($this->serialize(["Home" => "Hello World"], 'json'));
+       // print_r($this->serialize(["Home" => "Hello World"], 'json'));
     }
 }
