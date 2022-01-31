@@ -1,5 +1,5 @@
 <?php
-namespace App\ArticleController;
+namespace App\Controller;
 
 use App\Helpers\EntityManagerHelpers as Em;
 use Doctrine\ORM\EntityRepository ;
