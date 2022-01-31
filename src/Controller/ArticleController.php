@@ -1,7 +1,5 @@
 <?php
-namespace App\Controllers;
-
-session_start();
+namespace App\ArticleController;
 
 use App\Helpers\EntityManagerHelpers as Em;
 use Doctrine\ORM\EntityRepository ;

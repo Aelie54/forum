@@ -1,7 +1,5 @@
 <?php
-namespace App\Controllers;
-
-session_start();
+namespace App\CommentaireController;
 
 use App\Helpers\EntityManagerHelpers as Em;
 use Doctrine\ORM\EntityRepository ;
@@ -9,7 +7,7 @@ use Doctrine\ORM\Mapping\ClassMetadata;
 use App\Entity\Commentaire;
 
 
-class ArticleController{
+class CommentaireController{
     const NEEDLES = [
         "text_commentaire",
         "note", 
