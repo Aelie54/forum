@@ -104,10 +104,7 @@ class Article
     }
 
 
-    public function __construct (Author $id, int $id_article, Editor $id_editor, string $title, string $text, int $isbn){
-        $this->id = $id;
-        $this->id_article = $id_article;
-        $this->id_editor = $id_editor;
+    public function __construct (string $title, string $text, int $isbn){
         $this->title = $title;
         $this->text = $text;
         $this->isbn = $isbn;

@@ -1,12 +1,20 @@
 <?php
 
 namespace App\Controller;
+use App\Entity\Author;
+use App\Entity\Article;
+use App\Entity\Commentaire;
+use App\Entity\Editor;
+use Router\Router;
 
-final class AppController
+class AppController
 {
-
-    public function index(): void
+    public static function index()
     {
-       // print_r($this->serialize(["Home" => "Hello World"], 'json'));
+        include '../forum/src/view/Homepage.php';
+    }
+
+    public static function notFound(){
+        include '.forum/routes/404.html';
     }
 }

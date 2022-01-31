@@ -1,7 +1,7 @@
 <?php
 namespace App\Helpers;
 
-class EntityManagerHelper {
+class EntityManagerHelpers {
     public static function getEntityManager()
     {
         require('bootstrap.php');

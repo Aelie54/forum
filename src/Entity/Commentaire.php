@@ -79,11 +79,8 @@ class Commentaire
 
 
 
-    public function __construct (int $id_commentaire, Author $author_commentaire, Article $id_article, string $text_commentaire, int $note){
+    public function __construct (string $text_commentaire, int $note){
 
-        $this->id_commentaire = $id_commentaire;
-        $this->author_commentaire = $author_commentaire;
-        $this->id_article = $id_article;
         $this->text_commentaire = $text_commentaire;
         $this->note = $note;
 

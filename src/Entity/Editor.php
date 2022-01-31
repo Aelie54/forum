@@ -45,4 +45,12 @@ class Editor{
     $this->name = $name;
     }
 
+
+    /**
+     * Get the value of id_editor
+     */ 
+    public function getId_editor()
+    {
+        return $this->id_editor;
+    }
 }
