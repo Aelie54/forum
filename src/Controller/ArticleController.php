@@ -44,7 +44,7 @@ class ArticleController{
 
             if(!array_key_exists($value, $_POST)) {
                 $_SESSION["error"] = "?error=attention à remplir tous les champs";
-                header("location: http://localhost/Airplanes/src/vues/addAirport.php");
+                header("location: http://localhost/forum/src/vues/addarticle.php");
                  
             }
             
@@ -57,7 +57,7 @@ class ArticleController{
         $entityManager->persist($new_article);
         $entityManager->flush();
 
-        header("location: http://localhost/forum/src/vues/addArticle.php");
+        header("location: http://localhost/forum/src/vues/addarticle.php");
 
     }
 
@@ -103,7 +103,7 @@ class ArticleController{
         }
         
 
-        include __DIR__."/../view/modifyarticle.php" ;
+        include '../forum/src/view/modifyarticle.php' ;
 
     }
 

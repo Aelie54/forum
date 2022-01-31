@@ -97,9 +97,8 @@ class CommentaireController{
             $entityManager->flush();
 
         }
-        
 
-        include __DIR__."/../view/modifycommentaire.php" ;
+        include '../forum/src/view/modifycommentaire.php' ;
 
     }
 
