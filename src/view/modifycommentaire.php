@@ -9,7 +9,7 @@
 <body>
 
 
-<form action='<?="/modifycommentaire/$sId"?>' method="POST">
+<form action='<?="forum/modifycommentaire/$sId"?>' method="POST">
 
     <div>
         <label for="text_commentaire">Text :</label>

@@ -9,7 +9,7 @@
 <body>
 
 
-<form action='<?="/modifyarticle/$sId"?>' method="POST">
+<form action='<?="forum/modifyarticle/$sId"?>' method="POST">
 
     <div>
         <label for="title">Titre :</label>

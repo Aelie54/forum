@@ -9,7 +9,7 @@
 <body>
 
 
-<form action='<?="/addarticle"?>' method="POST">
+<form action='<?="forum/addarticle"?>' method="POST">
 
     <div>
         <label for="title">Titre :</label>
