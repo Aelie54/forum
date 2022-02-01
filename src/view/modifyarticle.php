@@ -9,7 +9,7 @@
 <body>
 
 
-<form action='<?="forum/modifyarticle/$sId"?>' method="POST">
+<form action='<?="http://localhost/forum/modifyarticle/$sId"?>' method="POST">
 
     <div>
         <label for="title">Titre :</label>
@@ -18,7 +18,7 @@
 
     <div>
         <label for="text">Text :</label>
-       <input type="text" id="text" name="text" value="<?=$oArticle->gettext()?>" />
+       <input type="text" id="text" name="text" value="<?=$oArticle->getText()?>" />
     </div>
 
     <div>

@@ -43,7 +43,7 @@ class CommentaireController{
 
             if(!array_key_exists($value, $_POST)) {
                 $_SESSION["error"] = "?error=attention à remplir tous les champs";
-                header("location: http://localhost/forum/src/vues/addcommentaire.php");
+                header("location: http://localhost/forum/src/view/addcommentaire.php");
                  
             }
             
@@ -56,7 +56,8 @@ class CommentaireController{
         $entityManager->persist($new_commentaire);
         $entityManager->flush();
 
-        header("location: http://localhost/forum/src/vues/addcommentaire.php");
+        include (__DIR__."../view/addcommentaire.php");
+        //header("location: http://localhost/forum/src/view/addcommentaire.php");
 
     }
 

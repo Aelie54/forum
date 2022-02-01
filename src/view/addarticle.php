@@ -9,7 +9,7 @@
 <body>
 
 
-<form action='<?="forum/addarticle"?>' method="POST">
+<form action="http://localhost/forum/addarticle" method="POST">
 
     <div>
         <label for="title">Titre :</label>
@@ -30,8 +30,7 @@
        <button type="submit">Envoyer</button>
     </div>       
 
-</fom>
-
+</form>
 
 </body>
 

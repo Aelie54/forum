@@ -30,17 +30,17 @@ class Article
      */
     private string $isbn;
 
-    /**
-     * @ORM\ManyToOne(targetEntity="Author")
-     * @ORM\JoinColumn(name="id", referencedColumnName="id")
-     */
-    private Author $id ;
+        // /**
+        //  * @ORM\ManyToOne(targetEntity="Author")
+        //  * @ORM\JoinColumn(name="id", referencedColumnName="id")
+        //  */
+        // private Author $id ;
 
-    /**
-     * @ORM\ManyToOne(targetEntity="Editor")
-     * @ORM\JoinColumn(name="id_editor", referencedColumnName="id_editor")
-     */
-    private Editor $id_editor;
+        // /**
+        //  * @ORM\ManyToOne(targetEntity="Editor")
+        //  * @ORM\JoinColumn(name="id_editor", referencedColumnName="id_editor")
+        //  */
+        // private Editor $id_editor;
 
 
     /**

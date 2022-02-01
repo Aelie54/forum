@@ -25,17 +25,17 @@ class Commentaire
      */
     private string $note;
 
-    /**
-     * @ORM\ManyToOne(targetEntity="Author")
-     * @ORM\JoinColumn(name="id", referencedColumnName="id")
-     */
-    private Author $id_author ;
+    // /**
+    //  * @ORM\ManyToOne(targetEntity="Author")
+    //  * @ORM\JoinColumn(name="id", referencedColumnName="id")
+    //  */
+    // private Author $id_author ;
 
-    /**
-     * @ORM\ManyToOne(targetEntity="Article")
-     * @ORM\JoinColumn(name="id_editor", referencedColumnName="id_editor")
-     */
-    private Editor $id_article;
+    // /**
+    //  * @ORM\ManyToOne(targetEntity="Article")
+    //  * @ORM\JoinColumn(name="id_article", referencedColumnName="id_article")
+    //  */
+    // private Article $id_article;
 
     /**
      * Get the value of text_commentaire

@@ -14,14 +14,19 @@ $router = new Router($_GET['url']);
 
 //montrer article 
 $router->get('/article/:id', 'App\Controller\ArticleController@show');
+
 //ajouter article
 $router->get('/addarticle', 'App\Controller\ArticleController@add');
 $router->post('/addarticle', 'App\Controller\ArticleController@add');
+
 //modifier article
 $router->get('/modifyarticle/:id', 'App\Controller\ArticleController@modify');
 $router->post('/modifyarticle/:id', 'App\Controller\ArticleController@modify');
+
 //supprimer article
 $router->get('/deletearticle/:id', 'App\Controller\ArticleController@delete');
+
+
 
 //montrer commentaire
 $router->get('/commentaire/:id', 'App\Controller\CommentaireController@show');
